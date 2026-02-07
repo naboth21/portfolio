@@ -2,16 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naboth Nyamache | Front-End Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Nyamache Nyamache</h1>
-  <p>Frontend Developer | Industrial Chemistry & Management</p>
+<header class="navbar">
+  <h1 class="logo">Naboth.dev</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <button onclick="sayHello()">Click Me</button>
+<!-- HERO -->
+<section class="hero">
+  <h2>Front-End Developer Building Real Web Projects</h2>
+  <p>
+    I create responsive, user-friendly websites using HTML, CSS, and JavaScript.
+    Focused on clean design and real-world functionality.
+  </p>
+  <a href="#projects" class="btn primary">View Projects</a>
+</section>
 
-  <script src="script.js"></script>
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="about-container">
+    <img src="profile.jpg" alt="Naboth Nyamache" class="profile-img">
+
+    <div class="about-text">
+      <h3>About Me</h3>
+      <p>
+        I’m a front-end developer passionate about building clean,
+        responsive, and functional websites. I enjoy turning ideas
+        into real digital products using modern web technologies.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h3>Core Skills</h3>
+  <div class="skills-grid">
+    <div class="skill-card">HTML5</div>
+    <div class="skill-card">CSS3</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">Responsive Design</div>
+    <div class="skill-card">Git & GitHub</div>
+    <div class="skill-card">UI/UX Basics</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h3>Projects</h3>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h4>Password Generator</h4>
+      <p>App that creates secure passwords using JavaScript.</p>
+      <span>JavaScript • DOM</span>
+      <div class="project-links">
+        <a href="#">Live</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h4>Landing Page</h4>
+      <p>Responsive modern landing page.</p>
+      <span>HTML • CSS</span>
+      <div class="project-links">
+        <a href="#">Live</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h3>Let’s Work Together</h3>
+  <p>I’m open to jobs, freelance projects, and collaborations.</p>
+  <a href="mailto:youremail@example.com" class="btn primary">
+    Contact Me
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Naboth Nyamache</p>
+</footer>
+
 </body>
 </html>
